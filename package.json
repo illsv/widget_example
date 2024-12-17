@@ -1,0 +1,14 @@
+{
+  "name": "next_rails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "api": "cd api && rails s",
+    "web": "cd web && npm run dev",
+    "serve": "npm run api & npm run web",
+    "deps": "cd api && bundle install && cd ../web && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
