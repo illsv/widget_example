@@ -6,6 +6,7 @@
     "api": "cd api && rails s",
     "web": "cd web && npm run dev",
     "serve": "npm run api & npm run web",
+    "rails": "cd api && rails",
     "deps": "cd api && bundle install && cd ../web && npm install"
   },
   "author": "",
