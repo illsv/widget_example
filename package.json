@@ -7,7 +7,7 @@
     "web": "cd web && npm run dev -- --port 3001",
     "serve": "npm run api & npm run web",
     "rails": "cd api && rails",
-    "deps": "cd api && bundle install && cd ../web && npm install"
+    "setup": "cd api && bundle install && rails db:migrate && cd ../web && npm install"
   },
   "author": "",
   "license": "ISC",
